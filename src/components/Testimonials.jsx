@@ -16,10 +16,10 @@ export const Testimonials = () => (
         transition={{ duration: 0.4, delay: 0.3 }}
       >
         <div className="custom-block-subtitle text-center mb-6">
-          Lorem Ipsum
+          What others say
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          These are totally made up testimonials. We hope you enjoy your read.
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
@@ -28,20 +28,19 @@ export const Testimonials = () => (
               <QuoteIcon />
             </div>
             <div className="custom-content-text-white">
-              "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus
-              pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed
-              tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices
-              magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis
-              sapien. Etiam finibus gravida."
+              "You won't regret it. I would gladly pay over 600 dollars for
+              DevOps Software. DevOps Software is both attractive and highly
+              adaptable. I will let my mum know about this, she could really
+              make use of DevOps Software!"
             </div>
             <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
               <img src={testimonial1} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  Oliver Kensington
                 </div>
                 <div className="custom-content-text-gray">
-                  Founder of Dashflow
+                  Founder of Uniporn
                 </div>
               </div>
             </div>
@@ -51,21 +50,17 @@ export const Testimonials = () => (
               <QuoteIcon />
             </div>
             <div className="custom-content-text-white">
-              "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus
-              pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed
-              tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices
-              magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis
-              sapien. Etiam finibus gravida."
+              "DevOps Software is the most valuable business resource we have
+              EVER purchased. I would also like to say thank you to all your
+              staff."
             </div>
             <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
               <img src={testimonial2} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  Juliana Grande
                 </div>
-                <div className="custom-content-text-gray">
-                  Founder of Dashflow
-                </div>
+                <div className="custom-content-text-gray">Mother and wife</div>
               </div>
             </div>
           </div>
@@ -74,20 +69,18 @@ export const Testimonials = () => (
               <QuoteIcon />
             </div>
             <div className="custom-content-text-white">
-              "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus
-              pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed
-              tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices
-              magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis
-              sapien. Etiam finibus gravida."
+              "DevOps Software is the most valuable business resource we have
+              EVER purchased. DevOps Software is great. The service was
+              excellent. It's all good."
             </div>
             <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
               <img src={testimonial3} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  Matt Richardson
                 </div>
                 <div className="custom-content-text-gray">
-                  Founder of Dashflow
+                  Developer at CocoaCow
                 </div>
               </div>
             </div>

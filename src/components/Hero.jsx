@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Discover new data flow
+            Discover the possibilities
           </div>
         </motion.div>
         <motion.div
@@ -28,11 +28,10 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Analytics</span>{" "}
-            <span className="hidden md:inline">Analytic tools suite</span>
+            DevOps solutions
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-            for developers
+            from devs for devs
           </div>
         </motion.div>
         <motion.div
@@ -41,8 +40,9 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consequat laoreet lacinia. Phasellus 
+            Whatever usecase you can possibly think of:
+            <br />
+            we got you covered!
           </div>
         </motion.div>
         <motion.div
@@ -55,13 +55,13 @@ export const Hero = () => {
               className="custom-button-colored w-80 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
-              Get Started
+              Contact us
             </div>
             <div
               className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
               onClick={() => setIsModalOpen(true)}
             >
-              Live demo
+              Show case
             </div>
           </div>
         </motion.div>

@@ -34,29 +34,20 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="custom-block-subtitle">
-              Dolor sit amet consectutar
-            </span>
+            <span className="custom-block-subtitle">Not what you expected</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Okay, let's make that clear...
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur nisl sodales egestas lobortis. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+              Even <strong>we</strong> don't know what to put here. You see, we
+              offer you individual solutions for whatever problems you may come
+              up with. But that also means, we cannot give you so much
+              information about the solutions. Because:
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Vestibulum viverra</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Morbi mollis metus pretium</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Etiam lectus nunc, commodo</span>
+                They don't exist, yet! 🤯
               </li>
             </ul>
           </div>

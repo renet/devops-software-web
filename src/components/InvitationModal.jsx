@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { Logo } from "../assets/logos/Logo";
 
 export const InvitationModal = ({ setIsOpen }) => (
   <AnimatePresence>
@@ -47,15 +47,16 @@ export const InvitationModal = ({ setIsOpen }) => (
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                 <div className="text-white mr-2 text-8xl">
-                  <TailcastLogo />
+                  <Logo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-3xl">
-                  Tailcast
+                  DevOps Software
                 </div>
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
-                Join 3,953 other developers
+                Let's get in touch and join many other devs that have an easy
+                life.
               </h3>
               <div className="flex flex-wrap -m-2">
                 <div className="w-full sm:w-4/5 p-2 mx-auto">
@@ -71,7 +72,7 @@ export const InvitationModal = ({ setIsOpen }) => (
                     className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7765e6] transition ease-in-out duration-200"
                     type="button"
                   >
-                    Join Now
+                    Let's talk
                   </button>
                 </div>
               </div>

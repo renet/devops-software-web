@@ -22,7 +22,7 @@ export const FAQ = () => (
             <div className="w-full p-1">
               <FAQBox
                 title="Do you provide any free plan?"
-                content="Maybe I don't know for sures"
+                content="Maybe I don't know for sures,Test2"
                 defaultOpen
               />
             </div>
